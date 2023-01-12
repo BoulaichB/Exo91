@@ -21,4 +21,5 @@ console.log(i.parentElement);
 // ### 6. affiche l'élément parent de l'élément b
 console.log(b.parentElement);
 // ### 7. affiche l'élément suivant le premier enfant de la dernière div
+console.log(lastDivFirstChild.nextElementSibling);
 

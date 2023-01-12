@@ -11,6 +11,8 @@ console.log(lastDivFirstChild);
 let lastDivLastChild = lastDiv.children[lastDiv.children.length - 1];
 console.log(lastDivLastChild);
 // ### 3. Récupère l'élément i contenu dans le premier p de la dernière div et affiche le
+let i = document.querySelector('div:nth-child(5) p i');
+console.log(i);
 // ### 4. Récupère l'élément b contenu dans le dernier p de la dernière div et affiche le
 // ### 5. Affiche l'élément parent de l'élément i
 // ### 6. affiche l'élément parent de l'élément b

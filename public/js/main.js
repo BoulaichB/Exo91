@@ -8,6 +8,8 @@ let lastDiv = divs[divs.length - 1];
 let lastDivFirstChild = lastDiv.children[0];
 console.log(lastDivFirstChild);
 // ### 2. Récupère et affiche le dernier enfant de la dernière div
+let lastDivLastChild = lastDiv.children[lastDiv.children.length - 1];
+console.log(lastDivLastChild);
 // ### 3. Récupère l'élément i contenu dans le premier p de la dernière div et affiche le
 // ### 4. Récupère l'élément b contenu dans le dernier p de la dernière div et affiche le
 // ### 5. Affiche l'élément parent de l'élément i

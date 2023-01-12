@@ -17,6 +17,7 @@ console.log(i);
 let b = document.querySelector('div:nth-child(5) p:nth-child(3) b');
 console.log(b);
 // ### 5. Affiche l'élément parent de l'élément i
+console.log(i.parentElement);
 // ### 6. affiche l'élément parent de l'élément b
 // ### 7. affiche l'élément suivant le premier enfant de la dernière div
 
